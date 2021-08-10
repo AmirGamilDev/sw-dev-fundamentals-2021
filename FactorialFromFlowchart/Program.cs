@@ -16,6 +16,8 @@ namespace FactorialFromFlowchart
             int fact = Factorial(n);
 
             Console.WriteLine($"Factorial of {n} is {fact}");
+
+            Console.ReadLine();
         }
 
         public static int Factorial(int n)
