@@ -13,14 +13,14 @@ namespace FactorialFromFlowchart
             Console.WriteLine("Please enter the value for n: ");
             int n = int.Parse(Console.ReadLine());
 
-            int fact = Factorial(n);
+            int fact = CalculateFactorial(n);
 
             Console.WriteLine($"Factorial of {n} is {fact}");
 
             Console.ReadLine();
         }
 
-        public static int Factorial(int n)
+        public static int CalculateFactorial(int n)
         {
             int fact = 1;
 
