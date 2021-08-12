@@ -22,6 +22,8 @@ namespace Fibonacci
 
             Console.WriteLine("Recursion:");
             DoFibonacciRecursive(number);
+
+            Console.ReadLine();
         }
 
         private static void DoFibonacciIterative(int n)
